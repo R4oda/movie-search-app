@@ -1,26 +1,37 @@
-.App {
+ul{
+  list-style-type: none;
+  padding: 0;
+}
+.Home {
   text-align: center;
 }
 
 .App-header {
   background-color: #282c34;
-  height: 70px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
   padding: 20px;
   cursor: pointer;
 }
+.App-header-nav{
+  display: flex;
+  gap: 20px;
+}
+.App-header-nav li a {
+  color: #FFF;
+  text-decoration: none;
+}
+
 
 .spinner {
   height: 80px;
   margin: auto;
 }
 
-.App-intro {
+.Home-intro {
   font-size: large;
 }
 
@@ -40,7 +51,7 @@
   margin: 0 auto;
 }
 
-.App-header h2 {
+.Home-header h2 {
   margin: 0;
 }
 
