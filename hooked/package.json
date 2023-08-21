@@ -13,7 +13,7 @@
     "source-map-loader": "^4.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://R4oda.github.io/movie-search-app",
+  "homepage": "https://r4oda.github.io/movie-search-app/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

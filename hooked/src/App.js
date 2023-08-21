@@ -10,8 +10,8 @@ const App = () => {
     return (
         <div className="App">
             <Routes>
-                <Route path="/" element={<Home watchlist={watchlist} setWatchlist={setWatchlist} pushButton={pushButton} setPushButton={setPushButton} />} /> {/*RouteにHomeを設定する*/}
-                <Route path="/watchlist" element={<Watch watchlist={watchlist} setWatchlist={setWatchlist} pushButton={pushButton} setPushButton={setPushButton} />} />
+                <Route path="/movie-search-app" element={<Home watchlist={watchlist} setWatchlist={setWatchlist} pushButton={pushButton} setPushButton={setPushButton} />} /> {/*RouteにHomeを設定する*/}
+                <Route path="movie-search-app/watchlist" element={<Watch watchlist={watchlist} setWatchlist={setWatchlist} pushButton={pushButton} setPushButton={setPushButton} />} />
             </Routes>
         </div>
     );
