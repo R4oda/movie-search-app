@@ -9,8 +9,8 @@ const Header = (props) => {
       <h2>{props.text}</h2>
       <nav>
         <ul className="App-header-nav">
-        <li><Link to="/">{props.home}</Link></li>
-          <li><Link to="/watchlist">{props.watchlist}</Link></li>
+        <li><Link to="/movie-search-app/">{props.home}</Link></li>
+          <li><Link to="/movie-search-app/watchlist">{props.watchlist}</Link></li>
         </ul>
       </nav>
     </header>
